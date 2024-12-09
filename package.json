@@ -1,0 +1,25 @@
+{
+  "name": "ordinario_admin_db_esquivel_ricardo-mendoza_ingrid",
+  "version": "1.0.0",
+  "description": "Ordinario de Base de datos 5 semestre  Nueva línea de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoEsq/ordinario_admin_db_Esquivel_Ricardo-Mendoza_Ingrid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoEsq/ordinario_admin_db_Esquivel_Ricardo-Mendoza_Ingrid/issues"
+  },
+  "homepage": "https://github.com/RicardoEsq/ordinario_admin_db_Esquivel_Ricardo-Mendoza_Ingrid#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}
