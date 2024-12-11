@@ -64,7 +64,7 @@ CREATE TABLE `estudiantes` (
   `matricula` varchar(100) NOT NULL,
   `edad` int NOT NULL,
   `semestre` varchar(50) NOT NULL,
-  `usuario_creacio` varchar(100) NOT NULL,
+  `usuario_creacion` varchar(100) NOT NULL,
   `fecha_creacion` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -93,7 +93,7 @@ CREATE TABLE `maestros` (
   `edad` int NOT NULL,
   `telefono` bigint NOT NULL,
   `correo` varchar(100) NOT NULL,
-  `usuario_creacio` varchar(100) NOT NULL,
+  `usuario_creacion` varchar(100) NOT NULL,
   `fecha_creacion` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

@@ -14,7 +14,7 @@ CREATE TABLE estudiantes (
 
     semestre VARCHAR(100) NOT NULL,
 
-    usuario_creacio VARCHAR(100) NOT NULL,
+    usuario_creacion VARCHAR(100) NOT NULL,
 
     fecha_creacion DATETIME NOT NULL
 
@@ -32,7 +32,7 @@ CREATE TABLE maestros (
 
     correo VARCHAR(100) NOT NULL,
 
-    usuario_creacio VARCHAR(100) NOT NULL,
+    usuario_creacion VARCHAR(100) NOT NULL,
 
     fecha_creacion DATETIME NOT NULL
 
